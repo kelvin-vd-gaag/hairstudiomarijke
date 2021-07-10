@@ -1,0 +1,30 @@
+.button{
+  background-color: transparent;
+  //background-color: #ff7BBF;
+  text-decoration: none;
+  padding: 1em;
+  white-space: nowrap;
+
+  &__gold{
+    border: 1px solid #b69e59;
+    color: #b69e59;
+    &:hover{
+      transition: 300ms;
+      background-color: #b69e59;
+      border: 1px solid #b69e59;
+      color: #fff;
+    }
+  }
+
+  &__white{
+    //border: 1px solid #fff;
+    color: #fff;
+    &:hover{
+      color: #b69e59;
+      transition: 300ms;
+      //background-color: #b69e59;
+      //border: 1px solid #b69e59;
+    }
+  }
+}
+
