@@ -94,6 +94,13 @@ header {
     transition: 500ms; }
   main {
     margin: 0 !important; }
+    main .overlay h1 {
+      white-space: initial; }
+    main .overlay .intro-text {
+      height: 50% !important;
+      width: 90%;
+      gap: 2em;
+      margin: 0 auto !important; }
   #hamburger-menu {
     z-index: 5;
     width: 60px;
@@ -162,8 +169,6 @@ header {
     left: 8px; }
   .open {
     color: black; }
-  .overlay h1 {
-    white-space: initial; }
   .unique-selling-points .inner-usp {
     overflow: scroll; }
   .information {

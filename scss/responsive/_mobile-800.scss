@@ -32,6 +32,18 @@
 
   main {
     margin: 0 !important;
+    .overlay {
+      h1 {
+        white-space: initial;
+      }
+      .intro-text{
+        height: 50% !important;
+        width: 90%;
+        gap: 2em;
+        margin: 0 auto !important;
+      }
+    }
+
   }
 
 
@@ -124,11 +136,6 @@
     color: black;
   }
 
-  .overlay {
-    h1 {
-      white-space: initial;
-    }
-  }
 
   .unique-selling-points {
     .inner-usp {
