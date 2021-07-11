@@ -1,4 +1,11 @@
 @media (max-width: 800px) {
+  /*GENERAL*/
+  h2{
+    margin: 1em !important;
+  }
+
+
+
   .desktop-header {
     display: none !important;
   }
@@ -31,12 +38,15 @@
   }
 
   main {
+    background-position-x: -50vw;
     margin: 0 !important;
+
     .overlay {
       h1 {
         white-space: initial;
       }
-      .intro-text{
+
+      .intro-text {
         height: 50% !important;
         width: 90%;
         gap: 2em;
@@ -145,14 +155,27 @@
 
   .information {
     margin: 0 !important;
-
-    ul {
-      flex-direction: column;
+    overflow: scroll;
+    ul{
+      justify-content: initial !important;
     }
+    //ul {
+    //  flex-direction: column;
+    //  li{
+    //    padding: 1em 2em !important;
+    //  }
+    //}
+  }
+
+  &:nth-last-child(.introduction-item){
+    margin-top: 1em !important;
   }
 
   .introduction-item {
     margin: 0 !important;
+    p{
+      margin: 1em !important;
+    }
   }
 
   footer {

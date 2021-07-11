@@ -69,6 +69,9 @@ header {
       max-width: 100% !important; } }
 
 @media (max-width: 800px) {
+  /*GENERAL*/
+  h2 {
+    margin: 1em !important; }
   .desktop-header {
     display: none !important; }
   .mobile-header {
@@ -93,6 +96,7 @@ header {
     left: 0;
     transition: 500ms; }
   main {
+    background-position-x: -50vw;
     margin: 0 !important; }
     main .overlay h1 {
       white-space: initial; }
@@ -172,11 +176,16 @@ header {
   .unique-selling-points .inner-usp {
     overflow: scroll; }
   .information {
-    margin: 0 !important; }
+    margin: 0 !important;
+    overflow: scroll; }
     .information ul {
-      flex-direction: column; }
+      justify-content: initial !important; }
+  :nth-last-child(.introduction-item) {
+    margin-top: 1em !important; }
   .introduction-item {
     margin: 0 !important; }
+    .introduction-item p {
+      margin: 1em !important; }
   footer .footer-links ul {
     flex-direction: column; } }
 
