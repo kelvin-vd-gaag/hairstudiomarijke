@@ -77,17 +77,19 @@ header {
     align-items: center;
     padding: 0 1em; }
   .mobile-menu {
-    width: 100vw;
-    max-width: 100%;
+    width: 90vw;
+    max-width: 90%;
     height: 100vh;
     max-height: 100%;
     left: -100vw;
     background-color: white;
-    z-index: 3;
+    z-index: 2;
     transition: 500ms; }
   .active {
     display: flex !important;
-    position: absolute;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
     left: 0;
     transition: 500ms; }
   * {
