@@ -164,6 +164,7 @@ footer {
       ul {
         display: flex;
         gap: 1em;
+        white-space: nowrap;
 
         li {
           list-style-type: none;
