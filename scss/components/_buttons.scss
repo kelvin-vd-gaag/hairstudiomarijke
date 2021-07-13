@@ -8,6 +8,8 @@
   &__gold{
     border: 1px solid #b69e59;
     color: #b69e59;
+    width: fit-content;
+    width: -moz-fit-content;
     &:hover{
       transition: 300ms;
       background-color: #b69e59;

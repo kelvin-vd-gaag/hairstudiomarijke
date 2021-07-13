@@ -71,7 +71,7 @@ header {
 @media (max-width: 800px) {
   /*GENERAL*/
   h2 {
-    margin: 1em !important; }
+    margin: 1em 1em 0 0.5em !important; }
   .desktop-header {
     display: none !important; }
   .mobile-header {
@@ -257,8 +257,6 @@ main {
         margin: 0;
         color: white;
         font-style: italic; }
-      main .overlay .intro-text .button {
-        width: fit-content; }
 
 .information {
   max-width: 1200px;
@@ -332,7 +330,9 @@ footer {
   white-space: nowrap; }
   .button__gold {
     border: 1px solid #b69e59;
-    color: #b69e59; }
+    color: #b69e59;
+    width: fit-content;
+    width: -moz-fit-content; }
     .button__gold:hover {
       transition: 300ms;
       background-color: #b69e59;
