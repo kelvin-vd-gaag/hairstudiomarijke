@@ -85,7 +85,9 @@ header {
     transform: translateX(-100vw);
     transition: all 1s;
     width: 90vw;
+    max-width: 90%;
     height: 100vh;
+    max-height: 100%;
     background-color: white;
     z-index: 3; }
     .mobile-menu nav {
