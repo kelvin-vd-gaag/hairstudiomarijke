@@ -22,7 +22,7 @@
     max-height: 100%;
     left: -100vw;
     background-color: white;
-    z-index: 2;
+    z-index: 3;
     transition: 500ms;
 
     nav {
@@ -104,7 +104,7 @@
     background-position-x: -50vw;
     margin: 0 !important;
 
-    .overlay {
+    .image-overlay {
       h1 {
         white-space: initial;
       }
