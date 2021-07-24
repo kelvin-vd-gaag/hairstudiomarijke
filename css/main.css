@@ -31,6 +31,11 @@ i {
 .mobile-menu, .mobile-header {
   display: none; }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 header {
   position: sticky;
   z-index: 4;

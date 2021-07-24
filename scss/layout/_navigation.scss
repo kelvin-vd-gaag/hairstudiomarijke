@@ -1,3 +1,9 @@
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   position: sticky;
   z-index: 4;
@@ -19,8 +25,7 @@ header {
       display: flex;
       align-items: center;
       gap: 2em;
-      .logo{
-      }
+
       ul {
         padding-left: 0;
         display: flex;
