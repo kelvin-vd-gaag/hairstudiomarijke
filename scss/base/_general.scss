@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  min-width: 320px;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
 }
@@ -17,4 +18,9 @@ body {
 
 i {
   margin-right: 5px;
+}
+
+
+.mobile-menu, .mobile-header {
+  display: none;
 }
