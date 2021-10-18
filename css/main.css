@@ -20,6 +20,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 2em auto;
+}
+
 .image-overlay {
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -377,8 +382,6 @@ main .image-overlay .intro-text p {
 }
 
 .information {
-  max-width: 1200px;
-  margin: 2em auto;
   background-color: whitesmoke;
 }
 .information ul {
@@ -398,9 +401,12 @@ main .image-overlay .intro-text p {
   color: #b69e59;
 }
 
+.introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
 .introduction .introduction-item {
-  max-width: 1200px;
-  margin: 2em auto;
   display: flex;
   justify-content: space-between;
 }
@@ -450,7 +456,7 @@ footer .inner-footer .copyright a {
 }
 footer .inner-footer .footer-links ul {
   display: flex;
-  gap: 1em;
+  gap: 2em;
   white-space: nowrap;
 }
 footer .inner-footer .footer-links ul li {
