@@ -202,8 +202,10 @@ header .inner-header nav ul a:hover {
   }
   main .image-overlay h1 {
     white-space: initial;
+    text-align: center;
   }
   main .image-overlay .intro-text {
+    align-items: center;
     height: 50% !important;
     width: 90%;
     gap: 2em;
@@ -382,6 +384,8 @@ main .image-overlay .intro-text p {
   font-style: italic;
 }
 main .image-overlay .opening-times {
+  display: flex;
+  justify-content: center;
   flex: 1;
 }
 

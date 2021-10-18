@@ -110,9 +110,12 @@
     .image-overlay {
       h1 {
         white-space: initial;
+        text-align: center;
       }
 
       .intro-text {
+        align-items: center;
+
         height: 50% !important;
         width: 90%;
         gap: 2em;

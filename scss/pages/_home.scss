@@ -73,6 +73,8 @@ main {
     }
 
     .opening-times {
+      display: flex;
+      justify-content: center;
       flex: 1;
     }
   }
