@@ -45,7 +45,7 @@ header {
           font-weight: 300;
           text-decoration: none;
           &:hover{
-            color: #b69e59;
+            color: $highlight-color;
             transition: 500ms;
           }
         }

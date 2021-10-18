@@ -5,7 +5,7 @@ h1 {
 }
 
 h2 {
-  color: #706134;
+  color: #c9a845;
   white-space: nowrap;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .highlight-text {
-  color: #706134;
+  color: #c9a845;
 }
 
 i {
@@ -87,7 +87,7 @@ header .inner-header nav ul a {
   text-decoration: none;
 }
 header .inner-header nav ul a:hover {
-  color: #b69e59;
+  color: #c9a845;
   transition: 500ms;
 }
 
@@ -409,12 +409,12 @@ main .image-overlay .opening-times {
 .information ul li {
   padding: 2em;
   list-style-type: none;
-  color: #706134;
+  color: #c9a845;
   white-space: nowrap;
 }
 .information ul li a {
   text-decoration: none;
-  color: #706134;
+  color: #c9a845;
 }
 
 .introduction {
@@ -486,22 +486,22 @@ footer .inner-footer .footer-links ul li {
   white-space: nowrap;
 }
 .button__gold {
-  border: 1px solid #b69e59;
-  color: #b69e59;
+  border: 1px solid #c9a845;
+  color: #c9a845;
   width: fit-content;
   width: -moz-fit-content;
 }
 .button__gold:hover {
   transition: 300ms;
-  background-color: #b69e59;
-  border: 1px solid #b69e59;
+  background-color: #c9a845;
+  border: 1px solid #c9a845;
   color: #fff;
 }
 .button__white {
   color: #fff;
 }
 .button__white:hover {
-  color: #b69e59;
+  color: #c9a845;
   transition: 300ms;
 }
 

@@ -93,12 +93,12 @@ main {
     li {
       padding: 2em;
       list-style-type: none;
-      color: #706134;
+      color: $highlight-color;
       white-space: nowrap;
 
       a {
         text-decoration: none;
-        color: #706134;
+        color: $highlight-color;
       }
     }
   }
