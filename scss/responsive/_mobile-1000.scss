@@ -1,16 +1,27 @@
 @media (max-width: 1000px) {
-  .introduction{
-    .introduction-item{
+  .container {
+    margin-top: 0;
+  }
+
+  .introduction {
+    .introduction-item {
       gap: 2em;
-      img{
+
+      img {
         width: 100%;
         max-width: 100% !important;
       }
+
       flex-direction: column;
+
     }
 
   }
-
+  main{
+    p{
+      width: 90%
+    }
+  }
 
 
 }

@@ -92,6 +92,10 @@ header .inner-header nav ul a:hover {
 }
 
 @media (max-width: 1000px) {
+  .container {
+    margin-top: 0;
+  }
+
   .introduction .introduction-item {
     gap: 2em;
     flex-direction: column;
@@ -100,11 +104,15 @@ header .inner-header nav ul a:hover {
     width: 100%;
     max-width: 100% !important;
   }
+
+  main p {
+    width: 90%;
+  }
 }
 @media (max-width: 800px) {
   /*GENERAL*/
   h2 {
-    margin: 1em 1em 0 0.5em !important;
+    margin: 0em 1em 0 0.5em !important;
   }
 
   .desktop-header {
