@@ -18,15 +18,15 @@ var number = date.getDay();
 
 let opening_hours =  [
     //Monday
-    'Vandaag open van: 09:00 tot 18:00',
+    'Vandaag open van: 09:00 tot 21:00',
     //Tuesday
-    'Vandaag open van: 09:00 tot 18:00',
+    'Vandaag open van: 09:00 tot 21:00',
     //Wednesday
-    'Vandaag open van: 09:00 tot 18:00',
+    'Vandaag gesloten',
     //Thursday
-    'Vandaag open van: 09:00 tot 18:00',
+    'Vandaag open van: 09:00 tot 21:00',
     //Friday
-    'Vandaag open van: 09:00 tot 18:00',
+    'Vandaag open van: 09:00 tot 21:00',
     //Saturday
     'Vandaag gesloten',
     //Sunday
