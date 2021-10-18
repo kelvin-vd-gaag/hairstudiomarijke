@@ -198,7 +198,6 @@ header .inner-header nav ul a:hover {
   }
 
   main {
-    background-position-x: -50vw;
     margin: 0 !important;
   }
   main .image-overlay h1 {
@@ -360,6 +359,7 @@ main {
 }
 main .image-overlay {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 main .image-overlay .intro-text {
@@ -369,6 +369,7 @@ main .image-overlay .intro-text {
   flex-direction: column;
   justify-content: space-between;
   margin-left: 5em;
+  flex: 2;
 }
 main .image-overlay .intro-text h1 {
   font-size: 4em;
@@ -379,6 +380,9 @@ main .image-overlay .intro-text p {
   margin: 0;
   color: white;
   font-style: italic;
+}
+main .image-overlay .opening-times {
+  flex: 1;
 }
 
 .information {
@@ -503,6 +507,15 @@ footer .inner-footer .footer-links ul li {
   display: block;
   opacity: 100;
   transition: opacity 1s;
+}
+
+table {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2em;
+}
+table td:first-child {
+  padding-right: 3em;
 }
 
 /*# sourceMappingURL=main.css.map */
