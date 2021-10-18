@@ -35,3 +35,5 @@ let opening_hours =  [
 
 //opening_hours[number - 1] as the week starts at day 1 but array counting starts with 0
 document.getElementById("opening-hours").innerHTML += opening_hours[number - 1]
+
+document.getElementById("opening-times").rows[number - 1 ].style.fontWeight =  900;
