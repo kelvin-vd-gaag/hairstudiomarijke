@@ -93,12 +93,12 @@ main {
     li {
       padding: 2em;
       list-style-type: none;
-      color: #b69e59;
+      color: #706134;
       white-space: nowrap;
 
       a {
         text-decoration: none;
-        color: #b69e59;
+        color: #706134;
       }
     }
   }
@@ -137,7 +137,8 @@ main {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      color: #818181;
+      color: #1a1a1a;
+      //color: #818181;
       font-family: "Open Sans", Sans-serif, serif;
       line-height: 1.5;
     }

@@ -5,7 +5,7 @@ h1 {
 }
 
 h2 {
-  color: #b69e59;
+  color: #706134;
   white-space: nowrap;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .highlight-text {
-  color: #b69e59;
+  color: #706134;
 }
 
 i {
@@ -55,7 +55,7 @@ header {
   z-index: 4;
   top: 0;
   width: 100%;
-  background-color: #798086;
+  background-color: #4e4f50;
   color: white;
 }
 header .inner-header {
@@ -409,12 +409,12 @@ main .image-overlay .opening-times {
 .information ul li {
   padding: 2em;
   list-style-type: none;
-  color: #b69e59;
+  color: #706134;
   white-space: nowrap;
 }
 .information ul li a {
   text-decoration: none;
-  color: #b69e59;
+  color: #706134;
 }
 
 .introduction {
@@ -439,7 +439,7 @@ main .image-overlay .opening-times {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: #818181;
+  color: #1a1a1a;
   font-family: "Open Sans", Sans-serif, serif;
   line-height: 1.5;
 }
