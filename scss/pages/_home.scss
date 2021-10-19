@@ -115,10 +115,16 @@ main {
 
     .image-gallery {
       flex: 1;
+      display: flex;
+      justify-content: center;
+
+      .image{
+
+      }
 
       img {
         position: relative;
-        max-width: 600px;
+        max-height: 400px;
       }
     }
 

@@ -100,11 +100,6 @@ header .inner-header nav ul a:hover {
     gap: 2em;
     flex-direction: column;
   }
-  .introduction .introduction-item img {
-    width: 100%;
-    max-width: 100% !important;
-  }
-
   main p {
     width: 90%;
   }
@@ -428,10 +423,12 @@ main .image-overlay .opening-times {
 }
 .introduction .introduction-item .image-gallery {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 .introduction .introduction-item .image-gallery img {
   position: relative;
-  max-width: 600px;
+  max-height: 400px;
 }
 .introduction .introduction-item .text {
   padding: 0 1em;
