@@ -400,6 +400,11 @@ main .image-overlay .opening-times {
   flex: 1;
 }
 
+.price-list {
+  display: flex;
+  flex-direction: row;
+}
+
 .information {
   background-color: whitesmoke;
 }
@@ -418,6 +423,24 @@ main .image-overlay .opening-times {
 .information ul li a {
   text-decoration: none;
   color: #c9a845;
+}
+
+.reverse .text {
+  display: flex;
+  justify-content: unset !important;
+}
+.reverse .text .bold {
+  font-weight: 900;
+  margin-bottom: 1em;
+}
+.reverse .text ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.reverse .text .price-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 .introduction {

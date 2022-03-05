@@ -80,6 +80,11 @@ main {
   }
 }
 
+.price-list{
+  display: flex;
+  flex-direction: row;
+}
+
 .information {
 
   background-color: whitesmoke;
@@ -101,6 +106,25 @@ main {
         color: $highlight-color;
       }
     }
+  }
+}
+
+.reverse .text{
+  display: flex;
+  .bold{
+    font-weight: 900;
+    margin-bottom: 1em;
+  }
+  justify-content: unset !important;
+  ul{
+    padding-left: 0;
+    list-style-type: none;
+  }
+  .price-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+
   }
 }
 
