@@ -109,24 +109,37 @@ main {
   }
 }
 
-.reverse .text{
-  display: flex;
+.reverse .text .price-list{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   .bold{
-    font-weight: 900;
-    margin-bottom: 1em;
+    font-weight: 700;
   }
-  justify-content: unset !important;
   ul{
-    padding-left: 0;
     list-style-type: none;
-  }
-  .price-list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
+    padding-left: 0;
 
   }
 }
+
+//.reverse .text{
+//  display: flex;
+//  .bold{
+//    font-weight: 900;
+//    margin-bottom: 1em;
+//  }
+//  justify-content: unset !important;
+//  ul{
+//    padding-left: 0;
+//    list-style-type: none;
+//  }
+//  .price-list{
+//    display: flex;
+//    flex-wrap: wrap;
+//    gap: 1em;
+//
+//  }
+//}
 
 .introduction {
   display: flex;

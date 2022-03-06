@@ -305,6 +305,10 @@ header .inner-header nav ul a:hover {
     color: black;
   }
 
+  .price-list {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
   .unique-selling-points .inner-usp {
     overflow: scroll;
   }
@@ -425,22 +429,16 @@ main .image-overlay .opening-times {
   color: #c9a845;
 }
 
-.reverse .text {
-  display: flex;
-  justify-content: unset !important;
-}
-.reverse .text .bold {
-  font-weight: 900;
-  margin-bottom: 1em;
-}
-.reverse .text ul {
-  padding-left: 0;
-  list-style-type: none;
-}
 .reverse .text .price-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.reverse .text .price-list .bold {
+  font-weight: 700;
+}
+.reverse .text .price-list ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .introduction {

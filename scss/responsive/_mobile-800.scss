@@ -215,6 +215,10 @@
     color: black;
   }
 
+  .price-list{
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
 
   .unique-selling-points {
     .inner-usp {
