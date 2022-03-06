@@ -333,7 +333,7 @@ header .inner-header nav ul a:hover {
     margin: 1em !important;
   }
   .introduction-item img {
-    width: 100%;
+    max-width: 100%;
     height: initial;
   }
 
@@ -506,7 +506,6 @@ footer .inner-footer .copyright a {
 footer .inner-footer .footer-links ul {
   display: flex;
   gap: 2em;
-  white-space: nowrap;
 }
 footer .inner-footer .footer-links ul li {
   list-style-type: none;
