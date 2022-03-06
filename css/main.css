@@ -114,6 +114,12 @@ header .inner-header nav ul a:hover {
     margin: 0em 1em 0 0.5em !important;
   }
 
+  .intro-text h2 {
+    text-align: center;
+    color: white;
+    font-weight: 100 !important;
+  }
+
   .desktop-header {
     display: none !important;
   }
@@ -392,6 +398,9 @@ main .image-overlay .intro-text h1 {
   font-size: 4em;
   color: white;
   margin: 0;
+}
+main .image-overlay .intro-text h2 {
+  white-space: unset;
 }
 main .image-overlay .intro-text p {
   margin: 0;
