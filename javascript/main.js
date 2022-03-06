@@ -17,6 +17,8 @@ var date = new Date();
 var number = date.getDay();
 
 let opening_hours =  [
+    //Sunday
+    'Vandaag gesloten',
     //Monday
     'Vandaag open van: 09:00 tot 21:00',
     //Tuesday
@@ -29,11 +31,12 @@ let opening_hours =  [
     'Vandaag open van: 09:00 tot 21:00',
     //Saturday
     'Vandaag gesloten',
-    //Sunday
-    'Vandaag gesloten',
+
 ]
 
-//opening_hours[number - 1] as the week starts at day 1 but array counting starts with 0
-document.getElementById("opening-hours").innerHTML += opening_hours[number - 1]
+window.addEventListener("load", function (){
+    //opening_hours[number - 1] as the week starts at day 1 but array counting starts with 0
+    document.getElementById("opening-hours").innerHTML += opening_hours[number]
 
-document.getElementById("opening-times").rows[number - 1 ].style.fontWeight =  900;
+    document.getElementById("opening-times").rows[number].style.fontWeight = 900;
+})
