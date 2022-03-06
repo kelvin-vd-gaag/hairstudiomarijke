@@ -219,7 +219,6 @@ header .inner-header nav ul a:hover {
   }
   main .image-overlay .intro-text {
     align-items: center;
-    height: 50% !important;
     width: 90%;
     gap: 2em;
     margin: 0 auto !important;
@@ -387,7 +386,6 @@ main .image-overlay {
 }
 main .image-overlay .intro-text {
   position: sticky;
-  height: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
