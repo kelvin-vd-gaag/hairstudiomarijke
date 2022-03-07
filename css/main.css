@@ -5,7 +5,7 @@ h1 {
 }
 
 h2 {
-  color: #c9a845;
+  color: #916767;
   white-space: nowrap;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .highlight-text {
-  color: #c9a845;
+  color: #e6b0b0;
 }
 
 i {
@@ -92,7 +92,7 @@ header .inner-header nav ul a {
   text-decoration: none;
 }
 header .inner-header nav ul a:hover {
-  color: #c9a845;
+  color: #916767;
   transition: 500ms;
 }
 
@@ -402,6 +402,7 @@ main .image-overlay .intro-text h1 {
 main .image-overlay .intro-text h2 {
   white-space: unset;
   animation: fadeIn 2s;
+  color: white;
 }
 main .image-overlay .intro-text p {
   margin: 0;
@@ -431,12 +432,12 @@ main .image-overlay .opening-times {
 .information ul li {
   padding: 2em;
   list-style-type: none;
-  color: #c9a845;
+  color: #916767;
   white-space: nowrap;
 }
 .information ul li a {
   text-decoration: none;
-  color: #c9a845;
+  color: #916767;
 }
 
 .reverse .text .price-list {
@@ -528,22 +529,22 @@ footer .inner-footer .footer-links ul li {
   white-space: nowrap;
 }
 .button__gold {
-  border: 1px solid #c9a845;
-  color: #c9a845;
+  border: 1px solid white;
+  color: white;
   width: fit-content;
   width: -moz-fit-content;
 }
 .button__gold:hover {
   transition: 300ms;
-  background-color: #c9a845;
-  border: 1px solid #c9a845;
+  background-color: #916767;
+  border: 1px solid #916767;
   color: #fff;
 }
 .button__white {
   color: #fff;
 }
 .button__white:hover {
-  color: #c9a845;
+  color: #916767;
   transition: 300ms;
 }
 

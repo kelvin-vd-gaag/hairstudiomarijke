@@ -6,8 +6,8 @@
   white-space: nowrap;
 
   &__gold{
-    border: 1px solid $highlight-color;
-    color: $highlight-color;
+    border: 1px solid white;
+    color: white;
     width: fit-content;
     width: -moz-fit-content;
     &:hover{
