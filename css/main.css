@@ -36,7 +36,7 @@ p {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 2em auto;
 }
 
@@ -75,7 +75,7 @@ header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
 }
 header .inner-header {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -357,7 +357,7 @@ header .inner-header nav ul a:hover {
   background-color: #f8f8ff;
 }
 .unique-selling-points .inner-usp {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 .unique-selling-points .inner-usp ul {
@@ -386,7 +386,7 @@ main {
   margin: 2em auto 0 auto;
   background-image: url("../assets/images/header-image.webp");
   background-position-x: center;
-  max-width: 1200px;
+  max-width: 1400px;
   height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -450,7 +450,7 @@ main .image-overlay .opening-times {
   margin: 0;
   padding-left: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .information ul li {
   padding: 2em;
@@ -527,7 +527,7 @@ footer .inner-footer {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 footer .inner-footer .copyright a {
