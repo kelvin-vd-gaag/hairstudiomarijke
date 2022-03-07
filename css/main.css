@@ -314,6 +314,9 @@ header .inner-header nav ul a:hover {
   .price-list {
     grid-template-columns: repeat(1, 1fr) !important;
   }
+  .price-list ul {
+    width: 100% !important;
+  }
 
   .unique-selling-points .inner-usp {
     overflow: scroll;
@@ -419,6 +422,9 @@ main .image-overlay .opening-times {
   display: flex;
   gap: 2em;
   flex-direction: row;
+}
+.price-list ul {
+  width: 80%;
 }
 .price-list li {
   display: flex;

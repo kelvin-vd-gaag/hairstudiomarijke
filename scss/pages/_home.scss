@@ -93,6 +93,9 @@ main {
   display: flex;
   gap: 2em;
   flex-direction: row;
+  ul{
+    width: 80%;
+  }
   li{
     display: flex;
     justify-content: space-between;
