@@ -91,7 +91,15 @@ main {
 
 .price-list{
   display: flex;
+  gap: 2em;
   flex-direction: row;
+  li{
+    display: flex;
+    justify-content: space-between;
+  }
+  .service-price{
+    font-weight: bold;
+  }
 }
 
 .information {

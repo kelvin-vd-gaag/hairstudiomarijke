@@ -417,7 +417,15 @@ main .image-overlay .opening-times {
 
 .price-list {
   display: flex;
+  gap: 2em;
   flex-direction: row;
+}
+.price-list li {
+  display: flex;
+  justify-content: space-between;
+}
+.price-list .service-price {
+  font-weight: bold;
 }
 
 .information {
