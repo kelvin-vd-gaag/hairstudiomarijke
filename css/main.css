@@ -489,7 +489,6 @@ main .image-overlay .opening-times {
 }
 .introduction .introduction-item .image-gallery img {
   position: relative;
-  max-height: 400px;
 }
 .introduction .introduction-item .text {
   padding: 0 1em;
