@@ -64,6 +64,11 @@ i {
   justify-content: center;
   align-items: center;
 }
+.logo a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
 
 header {
   position: sticky;
@@ -352,6 +357,10 @@ header .inner-header nav ul a:hover {
     flex-direction: column;
   }
 }
+.highlight-text-brand {
+  color: #e6b0b0 !important;
+}
+
 .unique-selling-points {
   width: 100%;
   background-color: #f8f8ff;
@@ -403,9 +412,6 @@ main .image-overlay .intro-text {
   justify-content: space-between;
   margin-left: 5em;
   flex: 2;
-}
-main .image-overlay .intro-text .highlight-text {
-  color: #e6b0b0 !important;
 }
 main .image-overlay .intro-text h1 {
   font-size: 4em;

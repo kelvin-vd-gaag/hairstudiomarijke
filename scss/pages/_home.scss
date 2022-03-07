@@ -1,6 +1,11 @@
 //.mobile-header, .mobile-menu{
 //  display: none;
 //}
+.highlight-text-brand{
+  color: #e6b0b0 !important;
+}
+
+
 .unique-selling-points {
   width: 100%;
   background-color: #f8f8ff;
@@ -57,9 +62,6 @@ main {
       justify-content: space-between;
       margin-left: 5em;
       flex: 2;
-      .highlight-text{
-        color: #e6b0b0 !important;
-      }
 
       h1 {
         font-size: 4em;
