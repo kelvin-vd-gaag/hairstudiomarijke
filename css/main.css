@@ -22,6 +22,11 @@ body {
   min-width: 320px;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
+  color: #010334;
+}
+
+p {
+  color: #010334;
 }
 
 .container {
@@ -37,7 +42,7 @@ body {
 }
 
 .highlight-text {
-  color: #e6b0b0;
+  color: #010334;
 }
 
 i {
@@ -118,7 +123,7 @@ header .inner-header nav ul a:hover {
   .intro-text h2 {
     text-align: center;
     color: white;
-    font-weight: 100 !important;
+    font-weight: 300 !important;
   }
 
   .desktop-header {
@@ -378,6 +383,7 @@ main {
   position: relative;
   margin: 2em auto 0 auto;
   background-image: url("../assets/images/header-image.webp");
+  background-position-x: center;
   max-width: 1200px;
   height: 600px;
   background-size: cover;
@@ -395,6 +401,9 @@ main .image-overlay .intro-text {
   justify-content: space-between;
   margin-left: 5em;
   flex: 2;
+}
+main .image-overlay .intro-text .highlight-text {
+  color: #e6b0b0 !important;
 }
 main .image-overlay .intro-text h1 {
   font-size: 4em;
@@ -446,12 +455,12 @@ main .image-overlay .opening-times {
 .information ul li {
   padding: 2em;
   list-style-type: none;
-  color: #916767;
+  color: #010334;
   white-space: nowrap;
 }
 .information ul li a {
   text-decoration: none;
-  color: #916767;
+  color: #010334;
 }
 
 .reverse .text .price-list {
@@ -488,10 +497,16 @@ main .image-overlay .opening-times {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   color: #1a1a1a;
   font-family: "Open Sans", Sans-serif, serif;
   line-height: 1.5;
+}
+.introduction .introduction-item .text .paragraphs {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 1em;
 }
 .introduction .introduction-item .text h2 {
   margin: 0;

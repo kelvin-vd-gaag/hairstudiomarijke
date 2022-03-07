@@ -38,7 +38,7 @@ main {
   position: relative;
   margin: 2em auto 0 auto;
   background-image: url("../assets/images/header-image.webp");
-
+  background-position-x: center;
   max-width: $desktop-width;
   height: 600px;
   background-size: cover;
@@ -57,6 +57,9 @@ main {
       justify-content: space-between;
       margin-left: 5em;
       flex: 2;
+      .highlight-text{
+        color: #e6b0b0 !important;
+      }
 
       h1 {
         font-size: 4em;
@@ -118,12 +121,12 @@ main {
     li {
       padding: 2em;
       list-style-type: none;
-      color: $highlight-color;
+      color: #010334;
       white-space: nowrap;
 
       a {
         text-decoration: none;
-        color: $highlight-color;
+        color: #010334;
       }
     }
   }
@@ -185,9 +188,18 @@ main {
       }
     }
 
+
     .text {
       padding: 0 1em;
       flex: 1;
+
+      .paragraphs{
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 1em;
+      }
 
       h2 {
         margin: 0;
@@ -199,7 +211,6 @@ main {
 
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
       color: #1a1a1a;
       //color: #818181;
       font-family: "Open Sans", Sans-serif, serif;
