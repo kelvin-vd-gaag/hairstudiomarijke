@@ -387,7 +387,7 @@ main {
   background-image: url("../assets/images/header-image.webp");
   background-position-x: center;
   max-width: 1200px;
-  height: 600px;
+  height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
 }
