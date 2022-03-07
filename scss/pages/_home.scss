@@ -37,7 +37,7 @@
 main {
   position: relative;
   margin: 2em auto 0 auto;
-  background-image: url("../assets/images/header-image.jpg");
+  background-image: url("../assets/images/header-image.webp");
 
   max-width: $desktop-width;
   height: 600px;
@@ -62,10 +62,14 @@ main {
         font-size: 4em;
         color: white;
         margin: 0;
+        animation: fadeIn 2s;
+
       }
 
       h2{
         white-space: unset;
+        animation: fadeIn 2s;
+
       }
 
       p {
@@ -155,7 +159,7 @@ main {
     justify-content: space-between;
 
     .image-gallery {
-      flex: 1;
+      //flex: 1;
       display: flex;
       justify-content: center;
 
@@ -226,4 +230,8 @@ footer {
       }
     }
   }
+}
+@keyframes fadeIn{
+  from{opacity: 0}
+  to{opacity: 1}
 }

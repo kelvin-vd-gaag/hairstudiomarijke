@@ -61,6 +61,7 @@ header {
   width: 100%;
   background-color: #4e4f50;
   color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
 }
 header .inner-header {
   max-width: 1200px;
@@ -373,7 +374,7 @@ header .inner-header nav ul a:hover {
 main {
   position: relative;
   margin: 2em auto 0 auto;
-  background-image: url("../assets/images/header-image.jpg");
+  background-image: url("../assets/images/header-image.webp");
   max-width: 1200px;
   height: 600px;
   background-size: cover;
@@ -396,9 +397,11 @@ main .image-overlay .intro-text h1 {
   font-size: 4em;
   color: white;
   margin: 0;
+  animation: fadeIn 2s;
 }
 main .image-overlay .intro-text h2 {
   white-space: unset;
+  animation: fadeIn 2s;
 }
 main .image-overlay .intro-text p {
   margin: 0;
@@ -458,7 +461,6 @@ main .image-overlay .opening-times {
   justify-content: space-between;
 }
 .introduction .introduction-item .image-gallery {
-  flex: 1;
   display: flex;
   justify-content: center;
 }
@@ -511,6 +513,14 @@ footer .inner-footer .footer-links ul li {
   list-style-type: none;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .button {
   background-color: transparent;
   text-decoration: none;
