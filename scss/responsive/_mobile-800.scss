@@ -1,7 +1,7 @@
 @media (max-width: 800px) {
   /*GENERAL*/
   h2 {
-    margin: 0em 1em 0 0.5em !important;
+    //margin: 0em 1em 0 0.5em !important;
   }
 
   .intro-text{
@@ -119,6 +119,10 @@
       h1 {
         white-space: initial;
         text-align: center;
+      }
+
+      h2{
+        max-width: 80%;
       }
 
       .intro-text {
@@ -258,7 +262,7 @@
     margin: 0 !important;
 
     p {
-      margin: 1em !important;
+      //margin: 1em !important;
     }
     img{
       max-width: 100%;

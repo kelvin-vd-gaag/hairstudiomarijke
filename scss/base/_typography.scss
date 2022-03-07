@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
 /*Typography and imports (Google Fonts) */
 h1{
   white-space: nowrap;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2{
   color: $highlight-color;
   //color: #b69e59;
   white-space: nowrap;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p{
   text-align: justify;
+  font-family: 'Montserrat', sans-serif;
 }
