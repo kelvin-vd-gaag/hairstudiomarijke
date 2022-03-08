@@ -28,10 +28,10 @@
 <div class="mobile-menu" id="mobile-menu">
     <nav>
         <ul>
-            <li><a href="https://www.hairstudiomarijke.nl/">Home</a></li>
-            <li><a href="#opening-times">Openingstijden</a></li>
-            <li><a href="#price-list">Prijslijst</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" onclick="toggle_menu()">Home</a></li>
+            <li><a href="#opening-times" onclick="toggle_menu()">Openingstijden</a></li>
+            <li><a href="#price-list" onclick="toggle_menu()">Prijslijst</a></li>
+            <li><a href="#location" onclick="toggle_menu()">Locatie</a></li>
         </ul>
     </nav>
     <div class="mobile-media-links">
@@ -49,9 +49,9 @@
             <div class="logo"><a href="#home">Hairstudio <span class="highlight-text-brand">Marijke</span></a></div>
             <ul class="primary-navigation">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#price-list">Prijslijst</a></li>
                 <li><a href="#opening-times">Openingstijden</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#price-list">Prijslijst</a></li>
+                <li><a href="#location">Locatie</a></li>
             </ul>
         </nav>
         <a href="tel:06-44099664" class="button button__white"><i class="fas fa-phone"></i>Maak een afspraak</a>
@@ -83,8 +83,8 @@
             <a href="tel:06-44099664" class="button button__gold"><i class="fas fa-phone" id="contact"></i>Bel voor een
                 afspraak</a>
         </div>
-        <div class="opening-times">
-            <table id="opening-times">
+        <div class="opening-times"  id="opening-times">
+            <table>
                 <h2>Openingstijden</h2>
                 <tr>
                     <td>Zondag</td>
@@ -120,7 +120,7 @@
 </main>
 <div class="information container">
     <ul>
-        <li><i class="fa-solid fa-map-pin"></i>Gedserpad 26, 3067 DR, Rotterdam</li>
+        <li><i class="fas fa-map-marker-alt"></i>Gedserpad 26, 3067 DR, Rotterdam</li>
         <li><i class="far fa-envelope"></i>hairstudiomarijke@gmail.com</li>
         <li id="opening-hours"><i class="far fa-clock"></i></li>
     </ul>
@@ -248,7 +248,7 @@
         </div>
     </div>
 </div>
-<div class="google-maps">
+<div class="google-maps" id="location">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.3858126720625!2d4.565618715786128!3d51.94515557970941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5cd45bf8ef79d%3A0x3b498ba47284c166!2sGedserpad%2026%2C%203067%20DR%20Rotterdam!5e0!3m2!1snl!2snl!4v1646779745589!5m2!1snl!2snl" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
 <footer>
@@ -274,6 +274,10 @@
     document.getElementById("overlay").addEventListener("click", event => {
         toggle_menu();
     })
+
+    function mobile_menu_clicked(){
+        toggle_menu();
+    }
 
     function toggle_menu() {
         document.getElementById("overlay").classList.toggle("overlay__active");
