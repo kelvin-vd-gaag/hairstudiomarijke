@@ -28,5 +28,18 @@
       //border: 1px solid #b69e59;
     }
   }
+
+  &__pink{
+    background-color: #e6b0b0;
+    color: white;
+    border: 1px solid #e6b0b0;
+    width: fit-content;
+    &:hover{
+      color: #e6b0b0;
+      transition: 300ms;
+      background-color: white;
+
+    }
+  }
 }
 
