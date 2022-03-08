@@ -440,6 +440,10 @@ main .image-overlay .opening-times h2 {
   color: white;
 }
 
+i {
+  margin-right: 10px;
+}
+
 .price-list {
   display: flex;
   flex-direction: row;
