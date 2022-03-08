@@ -526,6 +526,10 @@ main .image-overlay .opening-times h2 {
   margin: 0;
 }
 
+i {
+  color: #e6b0b0;
+}
+
 .reverse {
   flex-direction: row-reverse;
 }
