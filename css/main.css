@@ -8,7 +8,6 @@ h1 {
 
 h2 {
   color: #916767;
-  white-space: nowrap;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -116,7 +115,6 @@ header .inner-header nav ul a:hover {
   .container {
     margin-top: 0;
   }
-
   .introduction .introduction-item {
     gap: 2em;
     flex-direction: column;
@@ -132,18 +130,15 @@ header .inner-header nav ul a:hover {
     color: white;
     font-weight: 300 !important;
   }
-
   .desktop-header {
     display: none !important;
   }
-
   .mobile-header {
     display: flex !important;
     justify-content: space-between;
     align-items: center;
     padding: 0 1em;
   }
-
   .mobile-menu {
     position: fixed;
     transform: translateX(-100vw);
@@ -213,7 +208,6 @@ header .inner-header nav ul a:hover {
     padding: 1.5em;
     font-size: 1em;
   }
-
   .active {
     display: flex !important;
     justify-content: center;
@@ -222,7 +216,6 @@ header .inner-header nav ul a:hover {
     transform: translateX(0px) !important;
     transition: all 1s;
   }
-
   main {
     margin: 0 !important;
   }
@@ -239,7 +232,6 @@ header .inner-header nav ul a:hover {
     gap: 2em;
     margin: 0 auto !important;
   }
-
   #hamburger-menu {
     z-index: 5;
     width: 30px;
@@ -255,7 +247,6 @@ header .inner-header nav ul a:hover {
     transition: 0.5s ease-in-out;
     cursor: pointer;
   }
-
   #hamburger-menu span {
     display: block;
     position: absolute;
@@ -274,7 +265,6 @@ header .inner-header nav ul a:hover {
     -o-transition: 0.25s ease-in-out;
     transition: 0.25s ease-in-out;
   }
-
   #hamburger-menu span:nth-child(1) {
     top: 12px;
     -webkit-transform-origin: left center;
@@ -282,7 +272,6 @@ header .inner-header nav ul a:hover {
     -o-transform-origin: left center;
     transform-origin: left center;
   }
-
   #hamburger-menu span:nth-child(2) {
     top: 22px;
     -webkit-transform-origin: left center;
@@ -290,7 +279,6 @@ header .inner-header nav ul a:hover {
     -o-transform-origin: left center;
     transform-origin: left center;
   }
-
   #hamburger-menu span:nth-child(3) {
     top: 32px;
     -webkit-transform-origin: left center;
@@ -298,7 +286,6 @@ header .inner-header nav ul a:hover {
     -o-transform-origin: left center;
     transform-origin: left center;
   }
-
   #hamburger-menu.open span:nth-child(1) {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -307,12 +294,10 @@ header .inner-header nav ul a:hover {
     top: 7px;
     left: 4px;
   }
-
   #hamburger-menu.open span:nth-child(2) {
     width: 0;
     opacity: 0;
   }
-
   #hamburger-menu.open span:nth-child(3) {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -321,22 +306,18 @@ header .inner-header nav ul a:hover {
     top: 28px;
     left: 4px;
   }
-
   .open {
     color: black;
   }
-
   .price-list {
     grid-template-columns: repeat(1, 1fr) !important;
   }
   .price-list ul {
     width: 100% !important;
   }
-
   .unique-selling-points .inner-usp {
     overflow: scroll;
   }
-
   .information {
     margin: 0 !important;
     overflow: scroll;
@@ -344,7 +325,6 @@ header .inner-header nav ul a:hover {
   .information ul {
     justify-content: initial !important;
   }
-
   .introduction-item {
     margin: 0 !important;
   }
@@ -352,7 +332,6 @@ header .inner-header nav ul a:hover {
     max-width: 100%;
     height: initial;
   }
-
   footer .footer-links ul {
     flex-direction: column;
   }
