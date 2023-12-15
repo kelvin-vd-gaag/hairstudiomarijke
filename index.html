@@ -131,9 +131,7 @@
             <div class="image">
                 <img src="assets/images/marijke_kapster.webp" alt="Een foto van kapster Marijke Krieg in haar kapsalon." width="300" height="400">
 
-<!--                <img src="assets/images/3c51120f-4a16-40c4-8b5a-75e88eddbb3b.jpeg" alt="Een afbeelding van hairstudio marijke met 2 grote spiegels aan de muur en 2 kapperstoelen ervoor." width="640" height="480">-->
             </div>
-            <!--            <div class="image"><img src="assets/images/thumbnail/image-1.jpg" alt=""></div>-->
         </div>
         <div class="text">
             <h2>
@@ -255,7 +253,7 @@
 </div>
 <footer>
     <div class="inner-footer">
-        <div class="copyright">&copy; <span class="highlight-text">2022</span> <a
+        <div class="copyright">&copy; <span id="year" class="highlight-text"></span> <a
                 href="https://www.hairstudiomarijke.nl">hairstudiomarijke.nl</a>
         </div>
         <!--        <div class="footer-links">-->
@@ -282,6 +280,9 @@
         document.getElementById("hamburger-menu").classList.toggle("open");
         document.getElementById("mobile-menu").classList.toggle("active");
     }
+    new Date().getFullYear();
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+
 
 
 

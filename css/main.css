@@ -58,6 +58,14 @@ i {
   display: none;
 }
 
+.google-maps iframe {
+  border: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
 .logo {
   display: flex;
   justify-content: center;

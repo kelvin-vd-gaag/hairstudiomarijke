@@ -44,3 +44,11 @@ i {
 .mobile-menu, .mobile-header {
   display: none;
 }
+
+.google-maps iframe{
+  border: none;
+}
+
+a:hover{
+  cursor: pointer;
+}
