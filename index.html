@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <title>Hairstudio Marijke | Ambulante kapster in Rotterdam ommoord | Kapster aan huis in Ommoord</title>
+    <title>Hairstudio Marijke | Thuiskapster in Rotterdam Ommoord | Kapster aan huis in Ommoord</title>
     <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
     <meta name="description"
-          content="Hairstudio Marijke is een ambulante kapster in Rotterdam Ommoord. Bel nu voor een afspraak voor een kapster aan huis!">
+          content="Zoek je een ervaren thuiskapster in Rotterdam Ommoord? Hairstudio Marijke biedt knippen, kleuren en permanenten bij jou thuis. Bel nu voor een afspraak!">
     <script src="https://kit.fontawesome.com/0d757865ba.js" crossorigin="anonymous" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <!-- Preload hero/header afbeelding (optioneel) -->
+    <link rel="preload"
+          as="image"
+          href="/assets/images/header-image.webp"
+          type="image/webp" />
     <meta property="og:image" content="assets/images/header-image.webp">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4HKJ81DHTV"></script>
@@ -18,8 +23,58 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-4HKJ81DHTV');
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "HairSalon",
+            "name": "Hairstudio Marijke",
+            "image": "https://www.hairstudiomarijke.nl/assets/images/header-image.webp",
+            "@id": "",
+            "url": "https://www.hairstudiomarijke.nl",
+            "telephone": "06-44099664",
+            "priceRange": "€€",
+            "description": "Thuiskapster in Rotterdam Ommoord",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Kraaiheide 7",
+                "addressLocality": "Rotterdam",
+                "postalCode": "3069 LC",
+                "addressCountry": "NL"
+            },
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Monday",
+                    "opens": "09:00",
+                    "closes": "21:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Tuesday",
+                    "opens": "09:00",
+                    "closes": "21:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Thursday",
+                    "opens": "09:00",
+                    "closes": "21:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Friday",
+                    "opens": "09:00",
+                    "closes": "21:00"
+                }
+            ],
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "51.9667002",
+                "longitude": "4.546459"
+            }
+        }
     </script>
 </head>
 
@@ -39,10 +94,10 @@
             <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
             <li><a href="mailto:marijkekrieg@gmail.com" aria-label="Mail"><i class="far fa-envelope"></i></a></li>
             <li><a href="tel:06-44099664" aria-label="Phone"><i class="fas fa-phone"></i></a></li>
-
         </ul>
     </div>
 </div>
+
 <header>
     <div class="inner-header desktop-header">
         <nav>
@@ -54,10 +109,14 @@
                 <li><a href="#location">Locatie</a></li>
             </ul>
         </nav>
-        <a href="tel:06-44099664" class="button button__white"><i class="fas fa-phone"></i>Maak een afspraak</a>
+        <a href="tel:06-44099664" class="button button__white">
+            <i class="fas fa-phone"></i>Maak een afspraak
+        </a>
     </div>
     <div class="mobile-header">
-        <div class="logo"><a href="#home">Hairstudio <span class="highlight-text-brand">Marijke</span></a></div>
+        <div class="logo">
+            <a href="#home">Hairstudio <span class="highlight-text-brand">Marijke</span></a>
+        </div>
         <div id="hamburger-menu">
             <span></span>
             <span></span>
@@ -65,6 +124,7 @@
         </div>
     </div>
 </header>
+
 <div class="unique-selling-points" id="home">
     <div class="inner-usp">
         <ul>
@@ -75,15 +135,18 @@
         </ul>
     </div>
 </div>
+
 <main>
     <div class="image-overlay">
-        <div class="intro-text">
-            <h1>Hairstudio <span class="highlight-text-brand"> Marijke</span></h1>
-            <h2>Een ambulante kapper in Rotterdam-oost</h2>
-            <a href="tel:06-44099664" class="button button__gold"><i class="fas fa-phone" id="contact"></i>Bel voor een
-                afspraak</a>
-        </div>
-        <div class="opening-times"  id="opening-times">
+        <section class="intro-text">
+            <h1>Hairstudio <span class="highlight-text-brand">Marijke</span></h1>
+            <h2>Jouw thuiskapster in Rotterdam Ommoord</h2>
+            <a href="tel:06-44099664" class="button button__gold">
+                <i class="fas fa-phone" id="contact"></i>Bel voor een afspraak
+            </a>
+        </section>
+
+        <section class="opening-times" id="opening-times">
             <table id="time-table">
                 <h2>Openingstijden</h2>
                 <tr>
@@ -115,9 +178,10 @@
                     <td>Gesloten</td>
                 </tr>
             </table>
-        </div>
+        </section>
     </div>
 </main>
+
 <div class="information container">
     <ul>
         <li><i class="fas fa-map-marker-alt"></i>Ommoord</li>
@@ -125,47 +189,43 @@
         <li id="opening-hours"><i class="far fa-clock"></i></li>
     </ul>
 </div>
+
 <div class="introduction container">
     <div class="introduction-item">
         <div class="image-gallery">
             <div class="image">
-                <img src="assets/images/marijke_kapster.webp" alt="Een foto van kapster Marijke Krieg in haar kapsalon." width="300" height="400">
-
+                <img src="assets/images/marijke-krieg-kapster-ommoord.webp"
+                     alt="Foto van thuiskapster Marijke Krieg in haar kapsalon."
+                     width="300" height="400">
             </div>
         </div>
         <div class="text">
-            <h2>
-                Ambulante kapster Hairstudiomarijke
-            </h2>
+            <h2>Thuiskapster Hairstudio Marijke</h2>
             <div class="paragraphs">
-                <p>Welkom op de website van Marijke Krieg, uw ambulante kapster in Ommoord, Rotterdam. Sinds 2008 breng ik professionele kapperservaring en persoonlijke aandacht naar de huizen van mijn klanten.</p>
+                <p>Welkom op de website van Marijke Krieg, jouw <strong>thuiskapster in Ommoord</strong>, Rotterdam. Sinds 2008 breng ik professionele kapperservaring en persoonlijke aandacht bij jou thuis.</p>
 
-                <p>Bij mij kunt u rekenen op een breed scala aan kappersdiensten; van wassen, knippen en haarkleuring, tot het zetten van een permanent, watergolf of föhnen.</p>
+                <p>Bij mij kun je terecht voor een breed scala aan kappersdiensten: van wassen, knippen en haarkleuring tot het zetten van een permanent, watergolf of een föhnbeurt. Zo hoef je de deur niet uit voor een frisse coupe.</p>
 
-                <p>Ik werk exclusief met Vitality's, een topmerk in de kapperswereld. Of u nu een diepe, rijke haarkleur wenst of een veerkrachtige permanent, Vitality's staat garant voor uitstekende resultaten, waaronder een uitstekende grijsdekking.</p>
+                <p>Ik werk exclusief met Vitality's, een topmerk in de kapperswereld. Of je nu op zoek bent naar een diepe, rijke haarkleur, een veerkrachtige permanent of betrouwbare grijsdekking, Vitality's staat garant voor uitstekende resultaten.</p>
 
-                <p>Bent u op zoek naar een ervaren, betrouwbare kapster in Ommoord, Rotterdam? Bel me op 0644099664 om een afspraak in te plannen. Ik ben flexibel beschikbaar, zowel overdag als 's avonds, en kijk ernaar uit om uw haarverzorging naar een hoger niveau te tillen.</p>
-                <a href="tel:06-44099664" class="button button__pink"><i class="fas fa-phone"></i>Maak een afspraak</a>
+                <p>Ben je op zoek naar een ervaren, betrouwbare <strong>kapster aan huis</strong> in Rotterdam? Bel me gerust op <strong>06-44099664</strong> om een afspraak te maken. Ik ben flexibel beschikbaar, zowel overdag als 's avonds, en kijk ernaar uit om jouw haarverzorging naar een hoger niveau te tillen.</p>
 
+                <a href="tel:06-44099664" class="button button__pink">
+                    <i class="fas fa-phone"></i>Maak een afspraak
+                </a>
             </div>
         </div>
-        <!--        <div class="text-with-image">-->
-
-        <!--        </div>-->
     </div>
+
     <div class="introduction-item reverse">
         <div class="image-gallery">
-            <div class="image">
-            </div>
-            <img src="assets/images/3c51120f-4a16-40c4-8b5a-75e88eddbb3b.jpeg" alt="Een afbeelding van hairstudio marijke met 2 grote spiegels aan de muur en 2 kapperstoelen ervoor." width="640" height="480">
-
-            <!--            <div class="image"><img src="assets/images/thumbnail/image-2.jpg" alt=""></div>-->
-<!--            <img src="assets/images/marijke_kapster.webp" alt="Een foto van kapster Marijke Krieg in haar kapsalon." width="300" height="400">-->
+            <div class="image"></div>
+            <img src="assets/images/3c51120f-4a16-40c4-8b5a-75e88eddbb3b.jpeg"
+                 alt="Afbeelding van Hairstudio Marijke met twee spiegels aan de muur en twee kappersstoelen."
+                 width="640" height="480">
         </div>
         <div class="text">
-            <h2>
-                Prijslijst
-            </h2>
+            <h2>Prijslijst</h2>
             <div class="price-list" id="price-list">
                 <div>
                     <h3 class="bold">Wassen, knippen & Föhnen</h3>
@@ -201,19 +261,19 @@
                     <ul>
                         <li>
                             <div class="service">Kleuren uitgroei</div>
-                            <div class="service-price"> Vanaf. € 27,00</div>
+                            <div class="service-price">Vanaf € 27,00</div>
                         </li>
                         <li>
                             <div class="service">Kleuren volledig</div>
-                            <div class="service-price"> Vanaf. € 34,50</div>
+                            <div class="service-price">Vanaf € 34,50</div>
                         </li>
                         <li>
                             <div class="service">Coupe soleil</div>
-                            <div class="service-price"> € 27,50</div>
+                            <div class="service-price">€ 27,50</div>
                         </li>
                         <li>
-                            <div class="service">High light ( folie’s) Per stuk</div>
-                            <div class="service-price"> €2,00</div>
+                            <div class="service">High light (folie’s) per stuk</div>
+                            <div class="service-price">€ 2,00</div>
                         </li>
                         <li>
                             <div class="service">Kleurspoeling</div>
@@ -245,84 +305,68 @@
                 </div>
             </div>
             <div class="italic">
-                Er word een toeslag geregeld bij gebruik
-                Van extra verf of permanent vloeistof
+                Er wordt een toeslag berekend bij gebruik van extra verf of permanentvloeistof.
             </div>
             <div class="italic">
-                Eventuele parkeerkosten worden door berekend.
+                Eventuele parkeerkosten worden doorberekend.
             </div>
         </div>
     </div>
 </div>
+
 <div class="google-maps" id="location">
-<!--    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2459.3858126720625!2d4.565618715786128!3d51.94515557970941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5cd45bf8ef79d%3A0x3b498ba47284c166!2sGedserpad%2026%2C%203067%20DR%20Rotterdam!5e0!3m2!1snl!2snl!4v1646779745589!5m2!1snl!2snl" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2458.2044813806942!2d4.544162992332918!3d51.96669679952303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5cd054396f33b%3A0xc03fe7436bc8b035!2sKraaiheide%207%2C%203069%20LC%20Rotterdam!5e0!3m2!1snl!2snl!4v1684576314998!5m2!1snl!2snl style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <!-- Let op: je mist nog een afsluitende quote in de src van de iframe in je HTML.
+         Hier is de iframe gerepareerd. -->
+    <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2458.2044813806942!2d4.544162992332918!3d51.96669679952303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5cd054396f33b%3A0xc03fe7436bc8b035!2sKraaiheide%207%2C%203069%20LC%20Rotterdam!5e0!3m2!1snl!2snl!4v1684576314998!5m2!1snl!2snl"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+    </iframe>
 </div>
+
 <footer>
     <div class="inner-footer">
-        <div class="copyright">&copy; <span id="year" class="highlight-text"></span> <a
-                href="https://www.hairstudiomarijke.nl">hairstudiomarijke.nl</a>
+        <div class="copyright">
+            &copy; <span id="year" class="highlight-text"></span>
+            <a href="https://www.hairstudiomarijke.nl">hairstudiomarijke.nl</a>
         </div>
-        <!--        <div class="footer-links">-->
-        <!--            <ul>-->
-        <!--                <li><a href="#">Algemene voorwaarden</a></li>-->
-        <!--                <li><a href="#">Cookiebeleid</a></li>-->
-        <!--            </ul>-->
-        <!--        </div>-->
     </div>
-
 </footer>
-<!--<script src="javascript/main.js" defer></script>-->
+
 <script defer>
     document.getElementById("hamburger-menu").addEventListener("click", event => {
         toggle_menu();
-    })
-
+    });
     document.getElementById("overlay").addEventListener("click", event => {
         toggle_menu();
-    })
+    });
 
     function toggle_menu() {
         document.getElementById("overlay").classList.toggle("overlay__active");
         document.getElementById("hamburger-menu").classList.toggle("open");
         document.getElementById("mobile-menu").classList.toggle("active");
     }
-    new Date().getFullYear();
+
     document.getElementById("year").innerHTML = new Date().getFullYear();
-
-
-
-
-
 
     window.addEventListener("load", function () {
         let opening_hours = [
-            //Sunday
-            'Vandaag gesloten',
-            //Monday
-            'Vandaag open van: 09:00 tot 21:00',
-            //Tuesday
-            'Vandaag open van: 09:00 tot 21:00',
-            //Wednesday
-            'Vandaag gesloten',
-            //Thursday
-            'Vandaag open van: 09:00 tot 21:00',
-            //Friday
-            'Vandaag open van: 09:00 tot 21:00',
-            //Saturday
-            'Vandaag gesloten',
-
-        ]
+            'Vandaag gesloten',                   // Zondag
+            'Vandaag open van: 09:00 tot 21:00',  // Maandag
+            'Vandaag open van: 09:00 tot 21:00',  // Dinsdag
+            'Vandaag gesloten',                   // Woensdag
+            'Vandaag open van: 09:00 tot 21:00',  // Donderdag
+            'Vandaag open van: 09:00 tot 21:00',  // Vrijdag
+            'Vandaag gesloten'                    // Zaterdag
+        ];
         let date = new Date();
-        //Get the day of the week in a number.
         let number = date.getDay();
-        //opening_hours[number - 1] as the week starts at day 1 but array counting starts with 0
-        document.getElementById("opening-hours").innerHTML += opening_hours[number]
+        document.getElementById("opening-hours").innerHTML += opening_hours[number];
 
+        // Maak de rij van 'vandaag' dikgedrukt
         document.getElementById("time-table").rows[number].style.fontWeight = 900;
-    })
-
+    });
 </script>
 </body>
-
 </html>
