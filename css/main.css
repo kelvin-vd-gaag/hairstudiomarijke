@@ -16,6 +16,10 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+.italic {
+  font-style: italic;
+}
+
 html {
   scroll-behavior: smooth;
 }
