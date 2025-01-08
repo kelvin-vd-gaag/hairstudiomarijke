@@ -232,6 +232,9 @@ header .inner-header nav ul a:hover {
   main {
     margin: 0 !important;
   }
+  main .image-overlay {
+    align-items: flex-end !important;
+  }
   main .image-overlay h1 {
     white-space: initial;
     text-align: center;
