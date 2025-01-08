@@ -139,7 +139,7 @@ header .inner-header nav ul a:hover {
 @media (max-width: 800px) {
   /*GENERAL*/
   .diensten, .appointment, .pricelist {
-    padding: 1em !important;
+    padding: 0 1em !important;
   }
   .intro-text h2 {
     text-align: center;
@@ -343,6 +343,9 @@ header .inner-header nav ul a:hover {
   }
   .information ul {
     justify-content: initial !important;
+  }
+  .introduction {
+    gap: 1em !important;
   }
   .introduction-item {
     margin: 0 !important;

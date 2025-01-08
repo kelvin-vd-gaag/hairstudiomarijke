@@ -3,12 +3,12 @@
   h2 {
     //margin: 0em 1em 0 0.5em !important;
   }
-  .diensten, .appointment, .pricelist{
-    padding: 1em !important;
+  .diensten, .appointment, .pricelist {
+    padding: 0 1em !important;
   }
 
-  .intro-text{
-    h2{
+  .intro-text {
+    h2 {
       text-align: center;
       color: white;
       font-weight: 300 !important;
@@ -25,7 +25,6 @@
     align-items: center;
     padding: 0 1em;
   }
-
 
 
   .mobile-menu {
@@ -84,16 +83,19 @@
         list-style-type: none;
         justify-content: space-evenly;
         margin: 0;
-        li{
+
+        li {
           width: 100%;
           display: flex;
           justify-content: center;
           border-top: 1px solid #edeff1;;
           border-right: 1px solid #edeff1;;
         }
-        i{
+
+        i {
           font-size: 2em;
         }
+
         a {
           color: #e6b0b0;
           text-decoration: none;
@@ -120,12 +122,13 @@
 
     .image-overlay {
       align-items: flex-end !important;
+
       h1 {
         white-space: initial;
         text-align: center;
       }
 
-      h2{
+      h2 {
         max-width: 80%;
       }
 
@@ -231,9 +234,10 @@
     color: black;
   }
 
-  .price-list{
+  .price-list {
     grid-template-columns: repeat(1, 1fr) !important;
-    ul{
+
+    ul {
       width: 100% !important;
     }
   }
@@ -254,8 +258,8 @@
     }
   }
 
-  .introduction{
-
+  .introduction {
+    gap: 1em !important;
   }
 
   //&:nth-last-child(.introduction-item) {
@@ -268,7 +272,8 @@
     p {
       //margin: 1em !important;
     }
-    img{
+
+    img {
       max-width: 100%;
       height: initial;
     }
