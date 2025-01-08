@@ -526,6 +526,23 @@ i {
 .services .service {
   max-width: 65ch;
 }
+.appointment .contact-list {
+  padding-left: 0;
+  list-style: none;
+}
+.appointment .contact-list li {
+  margin-bottom: 1em;
+}
+.appointment .contact-list li a {
+  color: #916767;
+}
+.appointment .contact-list li a:hover {
+  color: #da9999;
+}
+.appointment .contact-list li a:visited {
+  color: #916767;
+}
+
 .information i {
   color: #e6b0b0;
 }
