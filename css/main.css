@@ -599,9 +599,7 @@ footer .inner-footer .footer-links ul li {
 }
 .button__pink {
   background-color: #e6b0b0;
-  /*color: white;*/
-  color: #231c1c;
-  /*Testing color for contrast test*/
+  color: black;
   border: 1px solid #e6b0b0;
   width: fit-content;
 }
