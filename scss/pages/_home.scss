@@ -239,13 +239,18 @@ i {
 }
 
 .services {
-  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  .service{
+    h3{
 
-  li {
-    list-style: none;
-    margin-bottom: 1em;
+    }
     max-width: 65ch;
+
+
   }
+
 }
 
 .information i {
@@ -254,6 +259,8 @@ i {
 
 .reverse {
   flex-direction: row-reverse;
+  .text{
+  }
 }
 
 .google-maps {

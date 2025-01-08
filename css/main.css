@@ -519,14 +519,13 @@ i {
 }
 
 .services {
-  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
 }
-.services li {
-  list-style: none;
-  margin-bottom: 1em;
+.services .service {
   max-width: 65ch;
 }
-
 .information i {
   color: #e6b0b0;
 }
@@ -534,7 +533,6 @@ i {
 .reverse {
   flex-direction: row-reverse;
 }
-
 .google-maps {
   max-width: 1400px;
   height: 400px;
