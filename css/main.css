@@ -553,6 +553,7 @@ i {
 .reverse {
   flex-direction: row-reverse;
 }
+
 .google-maps {
   max-width: 1400px;
   height: 400px;
