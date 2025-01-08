@@ -447,10 +447,6 @@ i {
   display: flex;
   justify-content: space-between;
 }
-.price-list .service-price {
-  font-weight: bold;
-}
-
 .information {
   background-color: whitesmoke;
 }
@@ -520,6 +516,15 @@ i {
 }
 .introduction .introduction-item .text p {
   margin: 0;
+}
+
+.services {
+  padding-left: 0;
+}
+.services li {
+  list-style: none;
+  margin-bottom: 1em;
+  max-width: 65ch;
 }
 
 .information i {
