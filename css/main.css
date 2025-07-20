@@ -662,4 +662,13 @@ table td:first-child {
   padding-right: 3em;
 }
 
+.klantenstop-banner {
+  background-color: #ffcccc;
+  color: #a60000;
+  text-align: center;
+  padding: 1em;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
 /*# sourceMappingURL=main.css.map */
